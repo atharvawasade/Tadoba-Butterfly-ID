@@ -1,16 +1,27 @@
-# butterfly_classifier_app
+# 🦋 Tadoba Butterfly Identifier
 
-A new Flutter project.
+A Flutter-based offline mobile app to identify butterfly species using a **TensorFlow Lite (TFLite)** model.  
+Built as part of a biodiversity and AI integration project, specifically targeting species found in and around **Tadoba Andhari Tiger Reserve**, India.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- 📸 **Image Upload**: Choose a butterfly image from gallery.
+- 🧠 **Offline AI Classification**: Uses a custom-trained **MobileNetV2 TFLite model** to identify 41 butterfly species.
+- 🔍 **Species Information**: Displays common name, scientific name, habitat, and description.
+- 📦 **Works Offline**: Designed for forest areas with no internet access.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⚙️ Tech Stack
+
+- **Flutter** (Dart)
+- **TensorFlow Lite** via `tflite_flutter` & `tflite_flutter_helper`
+- Custom model trained using **Keras** on curated butterfly dataset
+
+---
+
+📢 This project is for educational and portfolio demonstration purposes only.
+© 2025 Atharva Wasade — all rights reserved.
+
